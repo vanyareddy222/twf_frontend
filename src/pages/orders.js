@@ -88,6 +88,8 @@ export default function Orders() {
                 </div>
             ))}
             <button onClick={MinCost}>Submit</button>
+            <div>
+            Minimum cost: 
             <span
                 style={{
                     display: "inline-block",
@@ -99,8 +101,9 @@ export default function Orders() {
                     padding: "4px",
                 }}
             >
-                {minCost}
+               {minCost}
             </span>
+            </div>
         </div>
     );
 }
